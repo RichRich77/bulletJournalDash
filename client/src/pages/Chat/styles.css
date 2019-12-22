@@ -1,0 +1,21 @@
+.message-grid {
+    overflow-y: scroll;
+}
+
+.room-grid {
+    overflow-y: scroll;
+}
+
+.join-a-room {
+    margin-top: 25%
+}
+
+.communities {
+    color: black;
+    font-size: 28px;
+}
+
+.room {
+    text-align: left;
+    padding-left: 10px;
+}

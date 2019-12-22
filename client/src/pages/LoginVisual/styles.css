@@ -1,0 +1,170 @@
+.Menu-root-1 {
+    background-color: white !important;
+    background-image: url("./Images/BG2.jpg") !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    background-size: cover !important;
+    /* opacity: 0.5;
+    filter: alpha(opacity=50); For IE8 and earlier */
+    }
+
+/* .container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  table-layout: fixed !important;
+  border-collapse: collapse !important;
+  z-index: -1; position:relative !important;
+} */
+
+.style-input {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+.style-input::placeholder{
+    color: white !important;
+}
+/* .container{
+    width: 70%;
+    margin-top: 30px;
+} */
+h1{
+    color: #ffffff;
+    font-size: 120px;
+    text-align: center;
+    padding: 20px;
+    background-color:  rgb(51, 204, 204);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    width: 170px;
+    table-layout: fixed !important;
+    font-weight: 6px;
+}
+h2{
+    color:aqua;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: black;
+    text-emphasis-color: black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    table-layout: fixed !important;
+    text-shadow: 2px 2px 5px #145252;
+}
+.logo{
+    width: 80px;
+    table-layout: fixed !important;
+    font-weight: bold !important;
+}
+.style-button{
+    background-color:rgb(51, 204, 204) !important;
+    color: clear !important;
+    font-size: 20px !important;
+    padding: 8px !important;
+    /* margin: auto !important; */
+    text-align: center !important;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 170px;
+    table-layout: fixed !important;
+    opacity: 0.75;
+}
+p{
+    text-align: center;
+}
+
+  .tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1.7s cubic-bezier(0.6, 1.22, 0.71, 2.000) both;
+          animation: tracking-in-expand 1.7s cubic-bezier(0.6, 1.22, 0.71, 2.000) both;
+          animation-delay: 2s;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .bounce-in-top {
+	-webkit-animation: bounce-in-top 2.0s both;
+	        animation: bounce-in-top 2.0s both;
+}
+  
+ @-webkit-keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-700px);
+              transform: translateY(-700px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(200px);
+              transform: translateY(200px);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    /* 90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    } */
+    /* 95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out; */
+    /* } */
+  }
+
